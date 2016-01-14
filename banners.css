@@ -1,0 +1,31 @@
+table.container {
+  width: 540px;
+}
+table.cols {
+  width: 500px;
+  border: solid black 1px;
+  border-collapse: collapse;
+}
+td {
+  text-align: right;
+  padding-right: 1em;
+}
+tr {
+  border:solid black 1px;
+}
+tr.odd {
+  background: #FFF8DC;
+}
+tr.even {
+  background: #DCDCDC;
+}
+div.scrollable {
+  height: 768px;
+  overflow: auto;
+}
+caption {
+  font-size: 1.5em;
+}
+tfoot {
+  color: red;
+}

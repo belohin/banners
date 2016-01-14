@@ -1,0 +1,3 @@
+1) A statistic tábla 'amount' mezőjét cost per mille-ként használtam.
+2) A felhasználó regisztrációs dátumát nem vettem figyelembe. Különben nem lett volna mit megjeleníteni a három évvel korábbi impression-ok után.
+3) A tárolt eljárásban a paraméter bináris hasonlítása kevésbé elegáns megoldás. De nem ismerem a leendő tesztkörnyezetet, és szerettem volna elkerülni, hogy illegal mix of collations merüljön fel a kipróbálásnál.
